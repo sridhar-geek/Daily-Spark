@@ -47,6 +47,3 @@ npm run dev
 ## Author
 
 - Linkdin - [Sridhar Moturu](https://www.linkedin.com/in/sridhar-moturu-b4620524b/)
-
-
-## Acknowledgments
