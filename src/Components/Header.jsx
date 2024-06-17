@@ -8,7 +8,7 @@ const Header = () => {
       <header className="bg-glass [backdrop-filter:blur(30px)] rounded-3xl mt-5 px-4 md:px-1 mx-5 py-5">
         {/* For All header items */}
         <div className="flex justify-between items-center px-4">
-          {/* for logo and header */}
+          {/* for logo and app name */}
           <div className="flex gap-4 items-center">
             <img
               src="/logo.jpg"
@@ -19,6 +19,7 @@ const Header = () => {
               Daily Sparks
             </h3>
           </div>
+          {/* Navigation links */}
           <div className="gap-6 lg:gap-16 hidden md:flex ">
             <div className="nav">About</div>
             <div className="nav">Services</div>

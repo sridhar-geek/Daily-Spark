@@ -10,6 +10,13 @@
   .nav {
     @apply text-black hover:text-textColor font-medium cursor-pointer;
   }
+  /* Main Page */
+  .categoryBtn{
+    @apply rounded-lg px-4 py-2 flex-nowrap max-w-40 cursor-pointer bg-gray-200 text-nowrap
+  }
+  .navBtn{
+    @apply bg-textColor px-4 py-2 rounded-md hover:bg-blue-600
+  }
   /* Footer Style */
   .footerNav {
     @apply flex flex-col gap-2  font-medium text-sm

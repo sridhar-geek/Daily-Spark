@@ -36,7 +36,7 @@ const Footer = () => {
           <FaYoutube className="icons" />
         </div>
       </div>
-      <p className="footerLinks" className="text-center pb-3">
+      <p className="text-center pb-3">
         © 2024 Daily Sparks. All rights reserved.
       </p>
     </footer>
