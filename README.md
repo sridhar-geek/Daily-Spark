@@ -1,6 +1,6 @@
 # Daily Sparks
 
-![Logo](public/images/logo%20(2).jpg)
+![Logo](public/Images/logo%20(2).jpg)
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 ### Screenshot
 
-![](./public/images/Screenshot.png)
+![](./public/Images/Screenshot.png)
 
 ### Links
 **This is the link for Backend Code which serves News Articles**
