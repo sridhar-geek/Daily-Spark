@@ -28,11 +28,11 @@ export default function Home() {
     queryKey: [category, pageCount],
     queryFn: () =>
       axios.get(
-        `http://localhost:4000/api/v1/news/${category}?page=${pageCount}?limit=10`
+        `https://dailysparks-server.onrender.com/api/v1/news/${category}?page=${pageCount}?limit=10`
       ),
   });
 
-  if (isError) return <h3 className="text-3xl text-center">{error}</h3>;
+  if (isError) return <h3 className="text-3xl text-center">{error.message}</h3>
 
   // Get max No.of pages possible
   let maxPages = data?.data.count / 10 - 1;
@@ -78,7 +78,7 @@ export default function Home() {
           {/* Shows loading animation while data fetching */}
           {isLoading ? (
             <Loading />
-          ) : (
+          ) : isError ? <h3 className="text-3xl text-center">{error.message}</h3> : (
             <>
               {data?.data.data.map((article, i) => (
                 <NewsCard key={i} article={article} />

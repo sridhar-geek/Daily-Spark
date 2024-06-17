@@ -1,6 +1,6 @@
 # Daily Sparks
 
-![Logo](public/logo.jpg)
+![Logo](public/images/logo%20(2).jpg)
 
 ## Table of contents
 
@@ -9,7 +9,6 @@
   - [Links](#links)
   - [Tech Stack](#tech-stack)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -17,14 +16,14 @@
 
 ### Screenshot
 
-![](./public/Screenshot.png)
+![](./public/images/Screenshot.png)
 
 ### Links
 **This is the link for Backend Code which serves News Articles**
-- GitHub URL: [Code](https://github.com/sridhar-geek/Orange-Delight)
+- GitHub URL: [Code](https://github.com/sridhar-geek/DailySparks-Server)
 
 **Visit Live website by clicking this Demo link**
-- Site URL: [Demo](https://orange-delight.vercel.app/)
+- Site URL: [Demo](https://daily-spark.vercel.app/)
 
 ### Tech Stack
 - Nextjs
@@ -36,7 +35,7 @@
 ## Setup/Installition
 Clone the repository using this command
   ```sh
-git clone https://github.com/sridhar-geek/movie_database.git
+git clone https://github.com/sridhar-geek/Daily-Spark.git
 ```
 Type these command in your teriminal after Cloning the Repository
  ```sh 
