@@ -32,7 +32,6 @@ export default function Home() {
       ),
   });
 
-  if (isError) return <h3 className="text-3xl text-center">{error.message}</h3>
 
   // Get max No.of pages possible
   let maxPages = data?.data.count / 10 - 1;
